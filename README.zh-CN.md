@@ -1,12 +1,12 @@
-# XML for Nanobug
+# XML
 
-[English](https://github.com/T-miracle/XML-for-Nanobug/blob/main/README.md) · **简体中文**
+[English](https://github.com/Nanobug-Editor/XML/blob/main/README.md) · **简体中文**
 
 XML 高亮、补全、格式化、Schema 辅助和文档结构。 插件 ID 为 `xml`，首次独立发布版本为 `0.2.2`；原有安装身份、设置和私有数据保持连续。
 
-项目名为 **XML for Nanobug**。已发布的 `v0.2.2` 源码和 ZIP 字节继续冻结；本次说明更新不改变安装 ID，也不替换版本附件。
+项目名为 **XML**。已发布的 `v0.2.2` 源码和 ZIP 字节继续冻结；本次说明更新不改变安装 ID，也不替换版本附件。
 
-本仓库是业务维护来源。[市场注册仓库](https://github.com/T-miracle/Nanobug-Plugin-Marketplace)负责审核，安装包保存在本仓库 Releases。每版都通过市场 PR 和人工审核，不以 Release 发布代替上架。
+本仓库是业务维护来源。[市场注册仓库](https://github.com/Nanobug-Editor/Plugin-Marketplace)负责审核，安装包保存在本仓库 Releases。每版都通过市场 PR 和人工审核，不以 Release 发布代替上架。
 
 ## 独立构建
 
@@ -21,6 +21,6 @@ WASM 项目另使用 `& $pluginHost --plugin-cargo Cargo.toml test --lib` 验证
 
 ## 维护与许可
 
-迁移前的功能说明及历史验证见 [原始说明](https://github.com/T-miracle/XML-for-Nanobug/blob/v0.2.2/docs/source-readme.md)，新的构建和发布依据以本页及当前源文件为准。迁移保持既有业务行为。
+迁移前的功能说明及历史验证见 [原始说明](https://github.com/Nanobug-Editor/XML/blob/v0.2.2/docs/source-readme.md)，新的构建和发布依据以本页及当前源文件为准。迁移保持既有业务行为。
 
 Nanobug workspace 的 Cargo MIT 许可声明在 LICENSE 中明确保存；grammar、图标及原生依赖保留自身许可与随包 notice，不由根许可覆盖。将生成 ZIP 从原生插件管理器本地导入或待市场审核后安装，并按实际权限确认。
